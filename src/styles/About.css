@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*1500FF*/
+
+
+.about{
+    background-image: url(../assets/sample9.png);
+    height: 100vh;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 30vh;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.about-image{
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+justify-content: center;
+margin-top: 10vh;
+margin-bottom: 10vh;
+}
+
+.about-image img{
+    z-index: 0;
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+.about-text{
+    flex: 1;
+    color: black;
+    font-weight: 200;
+    width: 50%;
+}
+
+.about-text p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .about-text h2{
+        font-size: 8vh;
+    }
+    
+    .about-text p{
+        font-size: 2vh;
+    }
+    
+    }
+
+    @media (max-width: 1024px){
+        .about{
+          background-size: 100vw;
+        height: auto;
+        margin-bottom: 1rem;
+        }
+    }
+/*
+    @media only screen and (min-width: 1500px){
+        .about{
+            background: white;
+        }
+        
+    }
+
+    @media only screen and (min-height: 1000px){
+        .about{
+            background: white;
+        }
+    }
+*/
+    @media only screen and (max-width: 600px){
+        .about-image img{
+            width: 50%;
+        }
+        
+        }

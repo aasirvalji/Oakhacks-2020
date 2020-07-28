@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+  
+ /* testing */
+  
+ /*testing */
+  
+ .intro{
+  /*  background-image: url(../assets/Flat-Mountains.svg); */
+    height: 100vh;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    /* flip svg */
+  
+    margin-top: -70vh /* offset this with margin in flipped top */
+ }
+  
+ .intro-container{
+    display: flex;
+    flex-direction: column;
+  
+ }
+  
+ .intro-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ }
+  
+ .testin{
+    width: 5vw;
+ }
+  
+ .intro-image{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+ }
+  
+ .intro-image img{
+    width: 60%;
+    margin-bottom: 10vh;
+
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+ }
+
+ /* responsive queries */
+ @media only screen and (max-width: 1024px){
+ .intro-text h2{
+    font-size: 8vh;
+ }
+  
+ .intro-text p{
+    font-size: 3vh;
+ }
+  
+ }
+
+ @media only screen and (max-width: 600px){
+   .intro-image img{
+    width: 90%
+   }
+}
+  
+  
+ /* start floating animation */
+ @keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }   
+ }
+  
+  
+ 
+ 

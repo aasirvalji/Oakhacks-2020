@@ -1,0 +1,226 @@
+:root { /*reusable styling */
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Open Sans';  /* imported google font */
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+ body {
+  color: black;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 5rem; /* 5 * 16px = 80px (from :root) */
+  /* padding: 1rem; */
+}
+ .testing{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-thumb.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+a img{
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+ #home{
+  text-align: center;
+  padding-top: 40vh;
+}
+
+#hidden-responsive{ /* hides last button at smaller screen sizes */
+  display: none;
+}
+ .navbar { /* navbar */
+  position: fixed;
+  background-color: #000088;
+  transition: width 600ms ease;
+  z-index: 10000;
+}
+ .navbar-nav { /* list of navbar tabs */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+ .nav-item {
+  width: 100%;
+}
+ .nav-item:last-child { /* moves last element to bottom in navbar*/
+  margin-top: auto;
+}
+ .nav-link {
+  display: flex; /* each nav-link has its own row flex box */
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  filter: grayscale(100%) opacity(.5); /* creates 'unselected effect' on each svg icon */
+  transition: var(--transition-speed);
+}
+ .nav-link:hover {
+  filter: grayscale(0%) opacity(1); /* colors svg icon when hovered over */
+  background: #000000;
+  color: var(--text-secondary);
+}
+ .link-text { /* shows no text as default */
+  display: none;
+  margin-left: 1rem;
+}
+ .nav-link svg { /* targeting van svg */
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+ .fa-primary { /* targeting fontawesome primary class */
+  color: #1100FF;
+}
+ .fa-secondary { /* targeting fontawesome secondary class */
+  color: #FFFFFF;
+}
+ .fa-primary,
+.fa-secondary { /* targeting fontawesome primary and secondary class */
+  transition: var(--transition-speed);
+}
+ .logo {
+  font-weight: 200;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  background: #000088;
+  font-size: 2.9rem;
+  letter-spacing: 0.1ch;
+  width: 100%;
+}
+ .logo svg { /* targets logo svg at the top of the nav */
+  transform: rotate(0deg);
+  transition: var(--transition-speed);
+}
+
+.logo:hover{
+  transform: rotate(0deg);
+  transition: var(--transition-speed);
+}
+ .logo-text
+{
+  display: inline;
+  position: absolute;
+  left: -999px;
+  transition: var(--transition-speed);
+}
+ .navbar:hover .logo img { /* rotates logo svg at the top of the nav */
+  opacity: 0;
+}
+ /* Small screens */
+@media only screen and (max-width: 600px) {
+  .navbar { /* moves navbar to bottom and covers entire viewport */
+    bottom: 0;
+    width: 100vw;
+    height: 3.5rem; /* originally 5rem */
+    padding: none;
+    margin: none;
+  }
+   .nav-link:hover { /* custom addition */
+    filter: grayscale(0%) opacity(1); /* colors svg icon when hovered over */
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    height: 3.5rem;
+  }
+   .logo { /* removes logo due to space issues */
+    display: none;
+  }
+   #hidden-responsive{ /* hides last button at smaller screen sizes */
+    display: none;
+  }
+   .navbar-nav {
+    flex-direction: row;
+  }
+   .nav-link { /* centes items along the x-axis */
+    justify-content: center;
+  }
+   main { /* removes gap that originally existed on the main element for large screens */
+    margin: 0;
+  }
+}
+ /* Large screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 5rem; /* same as the space taken up by the margin-left of main */
+    height: 100vh;
+  }
+
+
+   .navbar:hover { /* opens navbar on hover */
+    width: 16rem;
+  }
+   .navbar:hover .link-text { /* displays text on hover */
+    display: inline;
+  }
+   .navbar:hover .logo svg
+  {
+    margin-left: 11rem;
+  }
+   .navbar:hover .logo-text
+  {
+    left: 0px;
+  }
+}
+ .dark {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+ .light {
+  --text-primary: #1f1f1f;
+  --text-secondary: #000000;
+  --bg-primary: #ffffff;
+  --bg-secondary: #e4e4e4;
+}
+ .solar {
+  --text-primary: #576e75;
+  --text-secondary: #35535c;
+  --bg-primary: #fdf6e3;
+  --bg-secondary: #f5e5b8;
+}
+ .theme-icon {
+  display: none;
+}
+ .dark #darkIcon {
+  display: block;
+}
+ .light #lightIcon {
+  display: block;
+}
+ .solar #solarIcon {
+  display: block;
+}
+ /* testing */
+ #home{
+height: 200vh;
+}
+ #about{
+  height: 200vh;
+}
+ #schedule{
+  height: 200vh;
+}
+ #sponsors{
+  height: 200vh;
+}
+ #contact{
+  height: 200vh;
+}
+

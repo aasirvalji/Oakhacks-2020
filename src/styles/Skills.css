@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*1500FF*/
+
+
+.skills{
+    background-image: url(../assets/sample6.png);
+    background-color: transparent;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 10vh;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start skill cards */
+.skill-card{
+    background: black;
+    border-radius: 20px;
+    margin: 2vw;
+    width: 33.3%;
+    height: 30rem;
+    color: #fff;
+    transition: 1s;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .skill-card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    -webkit-box-shadow: 0 40px 70px rgba(0, 0, 0, 0.3), 0 30px 25px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.3), 0 30px 25px rgba(0, 0, 0, 0.22);
+  }
+
+  .skill-card h3{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+  .skill-card p{
+      
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+   
+  }
+
+  .skill-card img{
+      width: 12rem;
+      height: 40%;
+  }
+
+  #front-end{
+      background-color: #FF4136;
+  }
+
+  #back-end{
+      background-color: #2ECC40;
+  }
+
+  #other{
+      background-color: #85144b;
+      text-align: center;
+  }
+
+  /* end skill cards */
+
+  /* start responsive */
+
+@media (max-width: 1024px){
+.skills{
+    margin-bottom: 11rem;
+}
+
+.skills-container{
+    flex-direction: column;
+}
+
+.skill-card{
+    width: 80vw;
+}
+
+}
+
+@media only screen and (min-width: 1500px){
+    .skills{
+        background: white;
+    }
+}
+
+@media only screen and (min-height: 1000px){
+    .skills{
+        background: white;
+    }
+}
+
+  /* end responsive */

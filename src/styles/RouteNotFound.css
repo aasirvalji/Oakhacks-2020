@@ -1,0 +1,99 @@
+
+.error {
+    height: 100vh;
+  background: white;
+
+}
+
+.error-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.error-container img{
+    width: 30rem;
+    margin-bottom: 3rem;
+/*
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    */
+}
+
+.error-container h4{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+    color: black;
+}
+
+.break{
+    flex-basis: 100%;
+height: 0;
+} 
+
+/* start button */
+
+.errorbtn{
+    width: 220px;
+    height: 50px;
+    background: #FF4136;
+    margin: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "montserrat",sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.4s;
+    transform-style: preserve-3d;
+    perspective: 800px;
+  }
+
+  .errorbtn::after{
+    content: '';
+    position: absolute;
+    background: #FF4136;
+    transition: 0.4s;
+  }
+
+  .btn4:hover{
+    transform: rotateY(30deg);
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  
+  .btn4::after{
+    width: 50px;
+    height: 100%;
+    left: -50px;
+    top: 0;
+    transform-origin: 100% 0;
+    transform: rotateY(-90deg);
+  }
+
+  @media only screen and (max-width: 600px){
+    .error-container img{
+        width: 15rem;
+    }
+ }
+
+/* end button */
+
+/*
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }   
+ }
+ */

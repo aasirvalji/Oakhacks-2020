@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.intro2{
+    background-image: url(../assets/Flat-Mountains.svg);
+    height: 100vh;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+position: relative;
+margin-top: -50vh;
+z-index: -1;
+}
+
