@@ -11,7 +11,7 @@ import Skills from './components/Skills'
 */
 import Navbar from './components/Navbar';
 import FlippedTop from './components/FlippedTop';
-import RouteNotFound from './components/RouteNotFound';
+import { RouteNotFound } from './components/RouteNotFound';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
