@@ -15,6 +15,7 @@ import FlippedTop from './components/FlippedTop';
 import { RouteNotFound } from './components/RouteNotFound';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import ApplicationForm from './components/ApplicationForm';
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
             </div>
           </Route>
           <Route exact path="/apply">
-            <Apply></Apply>
+            <ApplicationForm></ApplicationForm>
           </Route>
           <Route component={RouteNotFound} />
         </Switch>
