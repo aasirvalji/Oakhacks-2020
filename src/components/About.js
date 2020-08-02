@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import Slide from 'react-reveal/Slide';
+import robot from '../assets/dummy.png';
 
 function About() {
   return (
