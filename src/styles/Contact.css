@@ -106,6 +106,7 @@
   .contact {
     background-size: 100vw;
     margin-top: 7rem;
+    height: auto;
   }
 
   .middle {
@@ -118,14 +119,6 @@
 
 @media only screen and (min-width: 1500px) {
   .contact {
-    background: white;
-  }
-}
-
-@media only screen and (min-width: 1025px) {
-  .contact {
-    height: auto;
-    margin-top: 30vh;
     background: white;
   }
 }

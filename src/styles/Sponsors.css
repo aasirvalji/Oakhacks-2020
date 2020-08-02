@@ -1,28 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*1500FF*/
-
-.about {
-  background-image: url(../assets/sample9.png);
-  height: 100vh;
-  background-size: cover; /* <------ */
-  background-repeat: no-repeat;
-  background-position: center center;
+.sponsors {
+  height: auto;
   position: relative;
-  /* margin-bottom: 30vh; */
-  margin-bottom: 25vh;
+  margin-top: 30vh;
 }
 
-.about h2 {
+.sponsors h2 {
   text-align: center;
   font-size: 4rem;
   font-weight: 200;
 }
 
-.about-container {
+.sponsors-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +18,7 @@
   justify-content: center;
 }
 
-.about-image {
+.sponsors-image {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -41,58 +29,59 @@
   margin-bottom: 10vh;
 }
 
-.about-image img {
+.sponsors-image img {
   z-index: 0;
   position: relative;
   width: 50%;
   margin: auto;
 }
 
-.about-text {
+.sponsors-text {
   flex: 1;
   color: black;
   font-weight: 200;
   width: 50%;
 }
 
-.about-text p {
-  font-size: 1.3rem;
+.sponsors-text p {
+  font-size: 2rem;
+  font-weight: 500;
   text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
-  .about-text h2 {
+  .sponsors-text h2 {
     font-size: 8vh;
   }
 
-  .about-text p {
-    font-size: 2vh;
+  .sponsors-text p {
+    font-size: 3vh;
   }
 }
 
 @media (max-width: 1024px) {
-  .about {
+  .sponsors {
     background-size: 100vw;
     height: auto;
-    margin-bottom: 1rem;
+    margin-top: 7rem;
   }
 }
 /*
     @media only screen and (min-width: 1500px){
-        .about{
+        .sponsors{
             background: white;
         }
         
     }
 
     @media only screen and (min-height: 1000px){
-        .about{
+        .sponsors{
             background: white;
         }
     }
 */
 @media only screen and (max-width: 600px) {
-  .about-image img {
+  .sponsors-image img {
     width: 50%;
   }
 }

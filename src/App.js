@@ -6,6 +6,7 @@ import FlippedWave from './components/FlippedWave';
 import Project from './components/Projects';
 import Contact from './components/Contact';
 import Apply from './components/Apply';
+import Sponsors from './components/Sponsors';
 /*
 import Skills from './components/Skills'
 */
@@ -29,6 +30,7 @@ function App() {
               <Landing></Landing>
               <About id="about"></About>
               <Project></Project>
+              <Sponsors></Sponsors>
               <Contact></Contact>
               <FlippedWave></FlippedWave>
             </div>

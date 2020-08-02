@@ -13,12 +13,7 @@ function About() {
       <div className="about-container">
         <Slide left>
           <div className="about-image">
-            <img
-              src={
-                'https://storage.googleapis.com/domains-goog-prod/exports/2019-08-02/tld/tech/GOE002-Google-Partner-Marketing-Illustrations_TECH-Small-Image-2_190729-V01-01.png'
-              }
-              alt="Programmer"
-            ></img>
+            <img src={robot} alt="Programmer"></img>
           </div>
         </Slide>
 
