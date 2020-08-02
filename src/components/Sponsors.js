@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Sponsors.css';
 import Slide from 'react-reveal/Slide';
-import robot from '../assets/dummy.png';
+import bunch from '../assets/sponsors/bunch.png';
 
 const Sponsors = () => {
   return (
@@ -13,7 +13,13 @@ const Sponsors = () => {
       <div className="sponsors-container">
         <Slide left>
           <div className="sponsors-image">
-            <img src={robot} alt="Programmer"></img>
+            <a
+              href="https://bunch.live"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={bunch} alt="Programmer"></img>
+            </a>
           </div>
         </Slide>
 

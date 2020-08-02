@@ -27,13 +27,13 @@
   justify-content: center;
   margin-top: 10vh;
   margin-bottom: 10vh;
+  text-align: center;
 }
 
 .sponsors-image img {
   z-index: 0;
   position: relative;
-  width: 50%;
-  margin: auto;
+  width: 20%;
 }
 
 .sponsors-text {
