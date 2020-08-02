@@ -1,50 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*1500FF*/
 
-
-.projects{
-position: relative;
+.projects {
+  position: relative;
   background: url(../assets/sample10.png);
   height: auto;
-  background-size:     cover;                      /* <------ */
-  background-repeat:   no-repeat;
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
   background-position: center center;
   position: relative;
   margin-bottom: 1.5rem;
-
 }
 
-.projects h2{
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 200;
-    margin-bottom: 4rem;
+.projects h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 200;
+  margin-bottom: 4rem;
 }
 
 /* start projects card */
-.projects-container{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: auto;
+.projects-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
 
-    border-radius: 50px;
-    padding: 5rem 0 5rem 0;
-    background-color: #000088;
-    width: 50vw;
-    margin: auto;
-    z-index: 10;
-    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 50px;
+  padding: 5rem 0 5rem 0;
+  background-color: #000088;
+  width: 50vw;
+  margin: auto;
+  z-index: 10;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.projects img{
+.projects img {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,11 +54,10 @@ position: relative;
   min-width: 30rem;
 }
 
-
-    .break{
-        flex-basis: 100%;
-    height: 0;
-    } 
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
 
 /* start skill cards */
 
@@ -68,93 +66,85 @@ position: relative;
 /* end projects card */
 
 /* start responsive*/
-@media only screen and (max-width: 1024px){
-  .projects-container{
+@media only screen and (max-width: 1024px) {
+  .projects-container {
     flex-direction: column;
     align-items: center;
     width: 80vw;
     box-shadow: none;
   }
 
-  .project-card{
+  .project-card {
     width: 80vw;
   }
-
-    }
+}
 /* end responsive*/
 
 /* start animations */
 
-
 /* testing */
 
-.btn{
-    width: 220px;
-    height: 50px;
-    background: #1100FF;
-    margin: 40px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color: #fff;
-    font-family: "montserrat",sans-serif;
-    text-transform: uppercase;
-    font-size: 16px;
-    transition: 0.4s;
-    transform-style: preserve-3d;
-    perspective: 800px;
-  }
-
-  .btn::after{
-    content: '';
-    position: absolute;
-    background: #1100FF;
-    transition: 0.4s;
-  }
-
-  .btn3:hover{
-    transform: rotateY(30deg);
-    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  }
-  
-  .btn3::after{
-    width: 50px;
-    height: 100%;
-    left: -50px;
-    top: 0;
-    transform-origin: 100% 0;
-    transform: rotateY(-90deg);
-  }
-
-  @media (min-width: 1500px){
-.projects img{
-  margin-bottom: 1rem;
+.btn {
+  width: 220px;
+  height: 50px;
+  background: #1100ff;
+  margin: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.4s;
+  transform-style: preserve-3d;
+  perspective: 800px;
 }
+
+.btn::after {
+  content: '';
+  position: absolute;
+  background: #1100ff;
+  transition: 0.4s;
+}
+
+.btn3:hover {
+  transform: rotateY(30deg);
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.btn3::after {
+  width: 50px;
+  height: 100%;
+  left: -50px;
+  top: 0;
+  transform-origin: 100% 0;
+  transform: rotateY(-90deg);
+}
+
+@media (min-width: 1500px) {
+  .projects img {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    background-size: 100vw;
+    height: auto;
+    margin-top: 7rem;
   }
 
-  @media (max-width: 1024px){
-    .projects{
-      background-size: 100vw;
-      height: auto;
-    }
-
-    .projects img{
-      min-width: 0rem;
-    }
-
+  .projects img {
+    min-width: 0rem;
   }
+}
 
-  @media (max-width: 600px){
-    .projects-container{
-      background: transparent;
-      padding: 0rem 0rem 0rem 0rem;
-
-    }
-
-    
-
+@media (max-width: 600px) {
+  .projects-container {
+    background: transparent;
+    padding: 0rem 0rem 0rem 0rem;
   }
-
-
-
+}
