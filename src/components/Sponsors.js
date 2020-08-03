@@ -5,7 +5,7 @@ import bunch from '../assets/sponsors/bunch.png';
 
 const Sponsors = () => {
   return (
-    <div className="sponsors" id="sp">
+    <div className="sponsors" id="sponsor">
       <Slide right>
         <h2>Sponsors</h2>
       </Slide>
