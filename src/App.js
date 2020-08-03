@@ -16,6 +16,7 @@ import { RouteNotFound } from './components/RouteNotFound';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import ApplicationForm from './components/ApplicationForm';
+import UnsupportedDevice from './components/UnsupportedDevice';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
               <Contact></Contact>
               <FlippedWave></FlippedWave>
             </div>
+            {/* <div className="unsupported-display">
+              <UnsupportedDevice></UnsupportedDevice>
+            </div> */}
           </Route>
           <Route exact path="/apply">
             <ApplicationForm></ApplicationForm>
