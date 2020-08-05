@@ -8,7 +8,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* margin-bottom: 30vh; */
+    height: auto;
+    padding-top: 30vh;
 }
 
 .faq h2 {
@@ -21,6 +22,14 @@
     width: 65%;
     max-width: 60rem;
     padding: 4rem;
+}
+
+.faq-container h5{
+   font-size: 1rem;
+}
+
+#expansion-events-panel p{
+    font-size: .9rem;
 }
 
 #expansion-events-panel-container{
