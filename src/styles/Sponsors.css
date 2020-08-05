@@ -1,5 +1,11 @@
 .sponsors {
-  height: auto;
+  background-image: url(../assets/sample11.png);
+  min-height: 100vh;
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /* height : auto */
   position: relative;
   margin-top: 30vh;
 }
