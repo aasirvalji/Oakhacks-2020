@@ -40,6 +40,9 @@ function App() {
               <UnsupportedDevice></UnsupportedDevice>
             </div> */}
           </Route>
+          <Route path="/apply">
+            <ApplicationForm></ApplicationForm>
+          </Route>
           <Route exact path="/apply">
             <ApplicationForm></ApplicationForm>
           </Route>
