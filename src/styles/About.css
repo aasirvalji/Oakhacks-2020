@@ -46,17 +46,23 @@
   position: relative;
   width: 50%;
   margin: auto;
+
+  animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .about-text {
   flex: 1;
   color: black;
-  font-weight: 200;
-  width: 50%;
+  font-weight: 300;
+  width: 60%;
 }
 
 .about-text p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
   text-align: center;
 }
 
@@ -77,22 +83,16 @@
     margin-bottom: 1rem;
   }
 }
-/*
-    @media only screen and (min-width: 1500px){
-        .about{
-            background: white;
-        }
-        
-    }
 
-    @media only screen and (min-height: 1000px){
-        .about{
-            background: white;
-        }
-    }
-*/
 @media only screen and (max-width: 600px) {
   .about-image img {
     width: 50%;
   }
+}
+
+/* floating animation */
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
 }

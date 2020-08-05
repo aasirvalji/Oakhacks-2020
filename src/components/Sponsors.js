@@ -3,6 +3,7 @@ import '../styles/Sponsors.css';
 import Slide from 'react-reveal/Slide';
 import bunch from '../assets/sponsors/bunch.png';
 import bugsee from '../assets/sponsors/Bugsee-Logo (1).svg';
+import linode from '../assets/sponsors/linode.png';
 
 const Sponsors = () => {
   return (
@@ -14,6 +15,15 @@ const Sponsors = () => {
       <div className="sponsors-container">
     
           <div className="sponsors-image">
+          <Slide up>
+          <a
+              href="https://www.linode.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linode} alt="Linode" id="linode-logo"></img>
+            </a>
+            </Slide>
           <Slide right>
             <a
               href="https://bunch.live"

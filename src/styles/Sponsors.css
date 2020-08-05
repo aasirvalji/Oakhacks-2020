@@ -37,14 +37,22 @@
 }
 
 .sponsors-image img {
-  z-index: 0;
   position: relative;
   width: 20%;
+}
+
+#bunch-logo, #linode-logo, #bugsee-logo{
   margin-bottom: 80px;
 }
 
+
 #bugsee-logo {
   width: 100%;
+  margin: auto;
+}
+
+#linode-logo{
+  width: 50%;
   margin: auto;
 }
 
@@ -53,6 +61,7 @@
   color: black;
   font-weight: 200;
   width: 50%;
+  white-space: nowrap;
 }
 
 .sponsors-text p {
