@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+ overflow-x: hidden;
+
 }
 
 body {
@@ -9,12 +11,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* overflow-x: hidden; */
+ overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* set styles on mobile display */
+
+@media only screen and (max-width: 600px) {
+  html {
+   overflow-x: hidden;
+  
+  }
 }
 
 /* 

@@ -1,6 +1,6 @@
 .sponsors {
   background-image: url(../assets/sample11.png);
-  min-height: 100vh;
+  min-height: 50vh;
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;

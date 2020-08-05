@@ -8,8 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: auto;
-    padding-top: 30vh;
+    margin-top: 30vh;
 }
 
 .faq h2 {
@@ -36,6 +35,15 @@
     -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
+
+@media only screen and (max-width: 1024px) {
+    .faq {
+      background-size: 100vw;
+      height: auto;
+      margin-top: 7rem;
+    }
+  }
+  
 
 @media only screen and (max-width: 800px) {
     .faq-container{
