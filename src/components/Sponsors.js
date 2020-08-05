@@ -12,15 +12,18 @@ const Sponsors = () => {
       </Slide>
 
       <div className="sponsors-container">
-        <Slide left>
+    
           <div className="sponsors-image">
+          <Slide right>
             <a
               href="https://bunch.live"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={bunch} alt="Bunch"></img>
+              <img src={bunch} alt="Bunch" id="bunch-logo"></img>
             </a>
+            </Slide>
+            <Slide left>
             <a
               href="https://www.bugsee.com"
               target="_blank"
@@ -28,8 +31,8 @@ const Sponsors = () => {
             >
               <img src={bugsee} alt="Bugsee" id="bugsee-logo"></img>
             </a>
-          </div>
         </Slide>
+          </div>
 
         <Slide right>
           <div className="sponsors-text">

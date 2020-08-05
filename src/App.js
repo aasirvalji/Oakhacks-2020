@@ -7,6 +7,7 @@ import Project from './components/Projects';
 import Contact from './components/Contact';
 import Apply from './components/Apply';
 import Sponsors from './components/Sponsors';
+import Faq from './components/Faq'
 /*
 import Skills from './components/Skills'
 */
@@ -33,6 +34,7 @@ function App() {
               <About id="about"></About>
               <Project></Project>
               <Sponsors></Sponsors>
+              <Faq></Faq>
               <Contact></Contact>
               <FlippedWave></FlippedWave>
             </div>
