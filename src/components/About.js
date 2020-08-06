@@ -3,6 +3,13 @@ import '../styles/About.css';
 import Slide from 'react-reveal/Slide';
 import robot from '../assets/dummy.png';
 
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+
 function About() {
   return (
     <div className="about" id="abt">
@@ -36,13 +43,18 @@ You will have 24 hours to build something you think is cool and show it off to o
 <br></br>
 <br></br>
 We will be releasing our schedule for the hackathon shortly. Stay tuned for that.
-<br></br>
-<br></br>
-Oakhacks will be held on <b>September the 12th-13th.</b>
-
-
 
             </p>
+            <AppBar position="static" style={{backgroundColor: '#000088'}} className='important-dates-container'>
+        <Toolbar>
+          <Typography variant="h6" style={{width: '100%'}}>
+            <div className='important-dates'>
+                     <p>Hackathon: September 12-13th</p>
+            <p>Application Deadline: August 16th</p>
+            </div>
+          </Typography>
+        </Toolbar>
+      </AppBar>
           </div>
         </Slide>
       </div>

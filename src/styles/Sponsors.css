@@ -1,7 +1,8 @@
 .sponsors {
-  background-image: url(../assets/sample11.png);
+  background-image: url(../assets/sample9.png);
   min-height: 50vh;
   background-size: cover; /* <------ */
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -41,11 +42,6 @@
   width: 20%;
 }
 
-#bunch-logo, #linode-logo, #bugsee-logo{
-  margin-bottom: 80px;
-}
-
-
 #bugsee-logo {
   width: 100%;
   margin: auto;
@@ -56,12 +52,15 @@
   margin: auto;
 }
 
+#bunch-logo, #linode-logo{
+  margin-bottom: 3rem;
+}
+
 .sponsors-text {
   flex: 1;
   color: black;
   font-weight: 200;
   width: 50%;
-  white-space: nowrap;
 }
 
 .sponsors-text p {

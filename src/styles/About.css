@@ -7,8 +7,9 @@
 
 .about {
   background-image: url(../assets/sample9.png);
-  height: 100vh;
+  height: auto;
   background-size: cover; /* <------ */
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
@@ -66,6 +67,17 @@
   text-align: center;
 }
 
+.important-dates{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  white-space: nowrap;
+}
+
+.important-dates-container{
+  margin-top: 7rem;
+}
+
 @media only screen and (max-width: 1024px) {
   .about-text h2 {
     font-size: 8vh;
@@ -73,6 +85,16 @@
 
   .about-text p {
     font-size: 2vh;
+  }
+
+  .important-dates{
+    flex-direction: column;
+    font-size: .9rem;
+    padding: 1rem 0rem;
+  }
+
+  .important-dates > p{
+    padding: .5rem 0rem
   }
 }
 
@@ -87,6 +109,17 @@
 @media only screen and (max-width: 600px) {
   .about-image img {
     width: 50%;
+  }
+
+  .important-dates > p{
+    font-size: .8rem;
+    padding: .5rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .important-dates > p{
+    font-size: .6rem;
   }
 }
 
