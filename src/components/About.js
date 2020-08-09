@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import Slide from 'react-reveal/Slide';
+import Roll from 'react-reveal/Roll';
 import robot from '../assets/dummy.png';
 
 import AppBar from '@material-ui/core/AppBar';
@@ -45,6 +46,7 @@ You will have 24 hours to build something you think is cool and show it off to o
 We will be releasing our schedule for the hackathon shortly. Stay tuned for that.
 
             </p>
+            <Roll>
             <AppBar position="static" style={{backgroundColor: '#000088'}} className='important-dates-container'>
         <Toolbar>
           <Typography variant="h6" style={{width: '100%'}}>
@@ -55,6 +57,7 @@ We will be releasing our schedule for the hackathon shortly. Stay tuned for that
           </Typography>
         </Toolbar>
       </AppBar>
+      </Roll>
           </div>
         </Slide>
       </div>
