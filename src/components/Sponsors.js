@@ -3,7 +3,7 @@ import '../styles/Sponsors.css';
 import Slide from 'react-reveal/Slide';
 import bunch from '../assets/sponsors/bunch.png';
 import bugsee from '../assets/sponsors/Bugsee-Logo (1).svg';
-import linode from '../assets/sponsors/linode.png';
+import linode from '../assets/sponsors/linodeLandscape.png';
 
 const Sponsors = () => {
   return (

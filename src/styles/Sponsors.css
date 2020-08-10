@@ -48,7 +48,8 @@
 }
 
 #linode-logo{
-  width: 50%;
+  width: 40%;
+  min-width: 15rem;
   margin: auto;
 }
 
