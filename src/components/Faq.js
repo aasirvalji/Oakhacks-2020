@@ -22,7 +22,7 @@ const Faq = () => {
     
     return (
         <>
-        <div className='faq'>
+        <div className='faq' id='faq'>
         <Slide right>
         <h2>FAQs</h2>
       </Slide>

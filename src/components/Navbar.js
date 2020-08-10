@@ -20,16 +20,7 @@ function Navbar() {
 
             <li class="nav-item">
               <a href="#abt" class="nav-link">
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fad"
-                  data-icon="cat"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  class="svg-inline--fa fa-cat fa-w-16 fa-9x"
-                >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1100FF" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line>
                   <g class="fa-group">
                     <path
                       fill="currentColor"
@@ -49,16 +40,7 @@ function Navbar() {
 
             <li class="nav-item">
               <a href="#apply" class="nav-link">
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fad"
-                  data-icon="alien-monster"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 576 512"
-                  class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x"
-                >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1100FF" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
                   <g class="fa-group">
                     <path
                       fill="currentColor"
@@ -76,18 +58,10 @@ function Navbar() {
               </a>
             </li>
 
+
             <li class="nav-item">
               <a href="#sponsor" class="nav-link">
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fad"
-                  data-icon="space-station-moon-alt"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  class="svg-inline--fa fa-space-station-moon-alt fa-w-16 fa-5x"
-                >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1100FF" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                   <g class="fa-group">
                     <path
                       fill="currentColor"
@@ -105,18 +79,34 @@ function Navbar() {
               </a>
             </li>
 
+
+            {/* icon from https://iconsvg.xyz/ */}
+            <li class="nav-item">
+              <a href="#faq" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1100FF" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line>
+              
+                  <g class="fa-group">
+                    <path
+                      fill="currentColor"
+                      d="M32 416c0 35.35 21.49 64 48 64h16V352H32zm154.54-232h280.13L376 168C243 140.59 222.45 51.22 128 34.65V160h18.34a45.62 45.62 0 0 1 40.2 24zM32 96v64h64V32H80c-26.51 0-48 28.65-48 64zm114.34 256H128v125.35C222.45 460.78 243 371.41 376 344l90.67-16H186.54a45.62 45.62 0 0 1-40.2 24z"
+                      class="fa-secondary"
+                    ></path>
+                    <path
+                      fill="currentColor"
+                      d="M592.6 208.24C559.73 192.84 515.78 184 472 184H186.54a45.62 45.62 0 0 0-40.2-24H32c-23.2 0-32 10-32 24v144c0 14 8.82 24 32 24h114.34a45.62 45.62 0 0 0 40.2-24H472c43.78 0 87.73-8.84 120.6-24.24C622.28 289.84 640 272 640 256s-17.72-33.84-47.4-47.76zM488 296a8 8 0 0 1-8-8v-64a8 8 0 0 1 8-8c31.91 0 31.94 80 0 80z"
+                      class="fa-primary"
+                    ></path>
+                  </g>
+                </svg>
+                <span class="link-text">FAQs</span>
+              </a>
+            </li>
+
+
+
             <li class="nav-item">
               <a href="#comms" class="nav-link">
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fad"
-                  data-icon="space-shuttle"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 640 512"
-                  class="svg-inline--fa fa-space-shuttle fa-w-20 fa-5x"
-                >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1100FF" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                   <g class="fa-group">
                     <path
                       fill="currentColor"
@@ -134,6 +124,7 @@ function Navbar() {
               </a>
             </li>
 
+          {/* reference li */}
             <li class="nav-item" id="hidden-responsive">
               <a href="#projects" class="nav-link">
                 <svg
@@ -159,7 +150,7 @@ function Navbar() {
                     ></path>
                   </g>
                 </svg>
-                <span class="link-text">Contact</span>
+                <span class="link-text">Ignore Me</span>
               </a>
             </li>
           </ul>

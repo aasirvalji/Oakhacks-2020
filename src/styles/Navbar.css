@@ -36,9 +36,6 @@ a img{
   padding-top: 40vh;
 }
 
-#hidden-responsive{ /* hides last button at smaller screen sizes */
-  display: none;
-}
  .navbar { /* navbar */
   position: fixed;
   background-color: #000088;
@@ -122,6 +119,11 @@ a img{
  .navbar:hover .logo img { /* rotates logo svg at the top of the nav */
   opacity: 0;
 }
+
+#hidden-responsive{ /* hides last button*/
+  display: none;
+}
+
  /* Small screens */
 @media only screen and (max-width: 600px) {
   .navbar { /* moves navbar to bottom and covers entire viewport */
@@ -149,6 +151,12 @@ a img{
    .nav-link { /* centes items along the x-axis */
     justify-content: center;
   }
+  .nav-link svg { /* targeting an svg */
+    width: 40%;
+    min-width: 10%;
+    margin: 0 5%;
+  }
+
    main { /* removes gap that originally existed on the main element for large screens */
     margin: 0;
   }
