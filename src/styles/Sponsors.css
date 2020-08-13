@@ -47,13 +47,21 @@
   margin: auto;
 }
 
-#linode-logo{
+#linode-logo {
   width: 40%;
   min-width: 15rem;
   margin: auto;
 }
 
-#bunch-logo, #linode-logo{
+#echo-logo {
+  width: 75%;
+  min-width: 15rem;
+  margin: auto;
+}
+
+#bunch-logo,
+#linode-logo,
+#echo-logo {
   margin-bottom: 3rem;
 }
 

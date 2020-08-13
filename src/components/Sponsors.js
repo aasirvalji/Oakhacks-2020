@@ -4,6 +4,7 @@ import Slide from 'react-reveal/Slide';
 import bunch from '../assets/sponsors/bunch.png';
 import bugsee from '../assets/sponsors/Bugsee-Logo (1).svg';
 import linode from '../assets/sponsors/linodeLandscape.png';
+import echo from '../assets/sponsors/echoAR - Logo 2020 - Dark.png';
 
 const Sponsors = () => {
   return (
@@ -13,17 +14,16 @@ const Sponsors = () => {
       </Slide>
 
       <div className="sponsors-container">
-    
-          <div className="sponsors-image">
+        <div className="sponsors-image">
           <Slide up>
-          <a
+            <a
               href="https://www.linode.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={linode} alt="Linode" id="linode-logo"></img>
             </a>
-            </Slide>
+          </Slide>
           <Slide right>
             <a
               href="https://bunch.live"
@@ -32,8 +32,17 @@ const Sponsors = () => {
             >
               <img src={bunch} alt="Bunch" id="bunch-logo"></img>
             </a>
-            </Slide>
-            <Slide left>
+          </Slide>
+          <Slide down>
+            <a
+              href="https://echoar.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={echo} alt="echoAR" id="echo-logo"></img>
+            </a>
+          </Slide>
+          <Slide left>
             <a
               href="https://www.bugsee.com"
               target="_blank"
@@ -41,8 +50,8 @@ const Sponsors = () => {
             >
               <img src={bugsee} alt="Bugsee" id="bugsee-logo"></img>
             </a>
-        </Slide>
-          </div>
+          </Slide>
+        </div>
 
         <Slide right>
           <div className="sponsors-text">
