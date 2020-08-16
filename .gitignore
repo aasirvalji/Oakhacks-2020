@@ -12,6 +12,7 @@ build11.zip
 
 # production
 /build
+build.zip
 
 # misc
 .DS_Store
