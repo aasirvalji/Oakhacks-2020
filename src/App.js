@@ -19,6 +19,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import ApplicationForm from './components/ApplicationForm';
 import UnsupportedDevice from './components/UnsupportedDevice';
 import Schedule from './components/Schedule';
+import Delete from './components/Schedule';
 
 function App() {
   return (

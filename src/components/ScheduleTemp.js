@@ -8,41 +8,40 @@ import {
   Scheduler,
   DayView,
   Appointments,
-  AppointmentTooltip,
-  AppointmentForm,
 } from '@devexpress/dx-react-scheduler-material-ui';
 
-const Schedule = () => {
-  const currentDate = '2020-09-12';
-  const schedulerData = [
-    {
-      startDate: '2020-09-12T09:45',
-      endDate: '2020-09-12T11:00',
-      title: 'Meeting',
-    },
-    {
-      startDate: '2020-09-12T12:00',
-      endDate: '2020-09-12T13:30',
-      title: 'Go to a gym',
-    },
-  ];
+function Schedule() {
+  // const currentDate = '2018-11-01';
+  // const schedulerData = [
+  //   {
+  //     startDate: '2018-11-01T09:45',
+  //     endDate: '2018-11-01T11:00',
+  //     title: 'Meeting',
+  //   },
+  //   {
+  //     startDate: '2018-11-01T12:00',
+  //     endDate: '2018-11-01T13:30',
+  //     title: 'Go to a gym',
+  //   },
+  // ];
   return (
-    <div className="schedule">
+    <div className="schedule" id="schedule">
       <Slide right>
         <h2>Schedule</h2>
       </Slide>
+
       <div className="schedule-container">
-        <Paper>
+        testing
+        {/* <Paper>
           <Scheduler data={schedulerData}>
             <ViewState currentDate={currentDate} />
-            <DayView startDayHour={9} endDayHour={24} intervalCount={2} />
+            <DayView startDayHour={9} endDayHour={14} />
             <Appointments />
-            {/* <AppointmentTooltip showCloseButton showOpenButton={false} /> */}
           </Scheduler>
-        </Paper>
+        </Paper> */}
       </div>
     </div>
   );
-};
+}
 
 export default Schedule;
