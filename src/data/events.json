@@ -1,0 +1,78 @@
+{
+  "currentDate": "2020-09-12",
+  "events": [
+    {
+      "startDate": "2020-09-12T09:00",
+      "endDate": "2020-09-12T10:00",
+      "title": "Setup and get things ready (Hangout rooms)"
+    },
+    {
+      "startDate": "2020-09-12T10:00",
+      "endDate": "2020-09-12T11:00",
+      "title": "Opening ceremony"
+    },
+    {
+      "startDate": "2020-09-12T11:00",
+      "title": "Hacking begins"
+    },
+    {
+      "startDate": "2020-09-12T11:30",
+      "endDate": "2020-09-12T12:30",
+      "title": "Group formation & ideation"
+    },
+    {
+      "startDate": "2020-09-12T12:30",
+      "endDate": "2020-09-12T13:30",
+      "title": "Lunch & hangout"
+    },
+    {
+      "startDate": "2020-09-12T14:00",
+      "endDate": "2020-09-12T18:00",
+      "title": "Workshops"
+    },
+    {
+      "startDate": "2020-09-12T18:30",
+      "endDate": "2020-09-12T19:30",
+      "title": "Dinner & hangout"
+    },
+    {
+      "startDate": "2020-09-12T20:00",
+      "endDate": "2020-09-12T21:00",
+      "title": "Networking"
+    },
+    {
+      "startDate": "2020-09-12T21:00",
+      "endDate": "2020-09-12T23:00",
+      "title": "Skribl.io tournament"
+    },
+    {
+      "startDate": "2020-09-13T00:00",
+      "endDate": "2020-09-13T01:00",
+      "title": "Midnight snack & hangout"
+    },
+    {
+      "startDate": "2020-09-13T01:00",
+      "endDate": "2020-09-13T02:00",
+      "title": "Google feud"
+    },
+    {
+      "startDate": "2020-09-13T08:00",
+      "endDate": "2020-09-13T09:00",
+      "title": "Breakfast & hangout"
+    },
+    {
+      "startDate": "2020-09-13T11:00",
+      "title": "Projects due"
+    },
+    {
+      "startDate": "2020-09-13T12:00",
+      "endDate": "2020-09-13T14:00",
+      "title": "Project expo"
+    },
+    {
+      "startDate": "2020-09-13T14:30",
+      "endDate": "2020-09-13T15:30",
+      "title": "Closing Ceremony (Demos, prizes, closing remarks)"
+    }
+  ]
+}
