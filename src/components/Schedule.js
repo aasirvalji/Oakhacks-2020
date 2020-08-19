@@ -33,7 +33,7 @@ const Appointment = ({ children, style, ...restProps }) => (
 
 const Schedule = () => {
   return (
-    <div className="schedule">
+    <div className="schedule" id="calendar">
       <Slide right>
         <h2>Schedule</h2>
       </Slide>
