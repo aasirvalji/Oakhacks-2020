@@ -7,7 +7,7 @@ import Project from './components/Projects';
 import Contact from './components/Contact';
 import Apply from './components/Apply';
 import Sponsors from './components/Sponsors';
-import Faq from './components/Faq'
+import Faq from './components/Faq';
 /*
 import Skills from './components/Skills'
 */
@@ -18,6 +18,7 @@ import { RouteNotFound } from './components/RouteNotFound';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import ApplicationForm from './components/ApplicationForm';
 import UnsupportedDevice from './components/UnsupportedDevice';
+import Schedule from './components/Schedule';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Landing></Landing>
               <About id="about"></About>
               <Project></Project>
+              <Schedule></Schedule>
               <Sponsors></Sponsors>
               <Faq></Faq>
               <Contact></Contact>
