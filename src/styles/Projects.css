@@ -148,3 +148,9 @@
     padding: 0rem 0rem 0rem 0rem;
   }
 }
+
+@media only screen and (max-width: 350px) {
+  .projects-container {
+    width: 100vw;
+  }
+}

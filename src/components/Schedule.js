@@ -46,6 +46,12 @@ const Schedule = () => {
           </Scheduler>
         </Paper>
       </div>
+      <div className="schedule-open-container">
+        <div class="break"></div>
+        <a download href="http://localhost:3000/schedules/schedule.pdf">
+          <button class="btn btn3">Download PDF</button>
+        </a>
+      </div>
     </div>
   );
 };
