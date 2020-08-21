@@ -1,9 +1,8 @@
 .faq {
-  /* background-image: url(../assets/sample9.png); */
-  /* background-size: cover;  */
-  /* background-repeat: no-repeat;
-    background-position: center center;
-    position: relative; */
+  background-image: url(../assets/sample12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;

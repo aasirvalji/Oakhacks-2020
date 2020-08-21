@@ -48,8 +48,12 @@ const Schedule = () => {
       </div>
       <div className="schedule-open-container">
         <div class="break"></div>
-        <a download href="http://localhost:3000/schedules/schedule.pdf">
-          <button class="btn btn3">Download PDF</button>
+        <a
+          href="https://drive.google.com/file/d/1Kx0Tht2vUKBRajCeuGHvMOFGOuQOrL4O/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="btn btn3">View PDF</button>
         </a>
       </div>
     </div>
