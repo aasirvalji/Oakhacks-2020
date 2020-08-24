@@ -34,7 +34,7 @@ function App() {
               <FlippedTop></FlippedTop>
               <Landing></Landing>
               <About id="about"></About>
-              <Project></Project>
+              {/* <Project></Project> */}
               <Schedule></Schedule>
               <Sponsors></Sponsors>
               <Faq></Faq>

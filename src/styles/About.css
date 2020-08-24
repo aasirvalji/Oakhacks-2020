@@ -49,9 +49,9 @@
   margin: auto;
 
   animation-name: floating;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .about-text {
@@ -67,14 +67,14 @@
   text-align: center;
 }
 
-.important-dates{
+.important-dates {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   white-space: nowrap;
 }
 
-.important-dates-container{
+.important-dates-container {
   margin-top: 7rem;
 }
 
@@ -87,14 +87,14 @@
     font-size: 2vh;
   }
 
-  .important-dates{
+  .important-dates {
     flex-direction: column;
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 1rem 0rem;
   }
 
-  .important-dates > p{
-    padding: .5rem 0rem
+  .important-dates > p {
+    padding: 0.5rem 0rem;
   }
 }
 
@@ -111,21 +111,33 @@
     width: 50%;
   }
 
-  .important-dates > p{
-    font-size: .8rem;
-    padding: .5rem 0rem;
+  .important-dates > p {
+    font-size: 0.8rem;
+    padding: 0.5rem 0rem;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  .important-dates > p{
-    font-size: .6rem;
+  .important-dates > p {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .important-dates > p {
+    font-size: 0.5rem;
   }
 }
 
 /* floating animation */
 @keyframes floating {
-  from { transform: translate(0,  0px); }
-  65%  { transform: translate(0, 15px); }
-  to   { transform: translate(0, -0px); }    
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
 }

@@ -58,7 +58,7 @@ function Navbar() {
               </a>
             </li>
 
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a href="#apply" class="nav-link">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ function Navbar() {
                 </svg>
                 <span class="link-text">Apply</span>
               </a>
-            </li>
+            </li> */}
 
             <li class="nav-item">
               <a href="#calendar" class="nav-link">
