@@ -20,8 +20,6 @@ OakHacks is a virtual hackathon that specializes in technology, design and busin
 
 #### Run app: `npm run start`
 
-Runs the app in the development mode.
-
 <br />
 
 - Oakhacks 2020 ©
