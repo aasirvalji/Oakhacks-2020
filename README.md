@@ -14,11 +14,11 @@ OakHacks is a virtual hackathon that specializes in technology, design and busin
 
 # Getting started
 
-##### Clone this repo by running: `git clone https://github.com/aasirvalji/Oakhacks.git`
+#### Clone this repo by running: `git clone https://github.com/aasirvalji/Oakhacks.git`
 
-##### Change directory to oakhacks: `cd Oakhacks`
+#### Change directory to oakhacks: `cd Oakhacks`
 
-##### Run app: `npm run start`
+#### Run app: `npm run start`
 
 Runs the app in the development mode.
 
