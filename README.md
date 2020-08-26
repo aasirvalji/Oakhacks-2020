@@ -1,4 +1,4 @@
-# Oakhacks
+# 🌳 Oakhacks 2020 🌳
 
 OakHacks is a virtual hackathon that specializes in technology, design and business. Hacking will begin on September the 12th and end on September the 13th.
 
