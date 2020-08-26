@@ -7,7 +7,7 @@
 
 .schedule {
   background-image: url(../assets/sample12.png);
-  background-size: cover;
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
