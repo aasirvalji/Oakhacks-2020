@@ -49,7 +49,7 @@ const Schedule = () => {
       <div className="schedule-open-container">
         <div class="break"></div>
         <a
-          href="https://drive.google.com/file/d/1Kx0Tht2vUKBRajCeuGHvMOFGOuQOrL4O/view?usp=sharing"
+          href="https://drive.google.com/file/d/1V84maO6xAL-fFZK_QUODakiT0QDN4WPy/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
